@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "goit-python-web-hw-8"
+version = "0.1.0"
+description = ""
+authors = ["Iryna Dachuk <iradachuk@gmail.com>"]
+readme = "README.md"
+packages = [{include = "goit_python_web_hw_8"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mongoengine = "^0.27.0"
+pika = "^1.3.2"
+faker = "^18.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
